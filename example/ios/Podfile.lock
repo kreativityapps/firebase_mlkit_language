@@ -98,7 +98,7 @@ DEPENDENCIES:
   - Flutter (from `.symlinks/flutter/ios`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Firebase
     - FirebaseABTesting
     - FirebaseAnalytics
@@ -133,7 +133,7 @@ SPEC CHECKSUMS:
   FirebaseMLNLLanguageID: 75dd1ae8f6abe660f58c2c4bee1fe41af2b2f472
   FirebaseMLNLTranslate: 589dd15afe9b50a73c8a5bf61678cde7323397a0
   FirebaseRemoteConfig: 40f75c6ea20a52bf65ef44e3898910dd5b57c532
-  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   GoogleAppMeasurement: 51d8d9ea48f0ca44484d29cfbdef976fbd4fc336
   GoogleUtilities: 996e0db07153674fd1b54b220fda3a3dc3547cba
   GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
@@ -142,4 +142,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 3389836f37640698630b8f0670315d626d5f1469
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.8.3
