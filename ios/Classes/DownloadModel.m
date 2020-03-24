@@ -6,9 +6,6 @@
 
 + (void)handleEvent:(NSString *)text result:(FlutterResult)result {
   FIRTranslateLanguage modelName = FIRTranslateLanguageForLanguageCode(text);
-  FIRModelDownloadConditions *conditions =
-  [[FIRModelDownloadConditions alloc] initWithAllowsCellularAccess:YES
-                                           allowsBackgroundDownloading:YES];
 
   FIRTranslateRemoteModel *modelToDownload = [FIRTranslateRemoteModel translateRemoteModelWithLanguage:modelName];
 
@@ -16,6 +13,9 @@
     result(@"Already Downloaded");
   } else {
    // todo nsprogressをうまく使いたい
+     FIRModelDownloadConditions *conditions =
+     [[FIRModelDownloadConditions alloc] initWithAllowsCellularAccess:YES
+                                              allowsBackgroundDownloading:YES];
     [[FIRModelManager modelManager] downloadModel:modelToDownload conditions:conditions];
     result(@"Downloaded");
   }

@@ -12,6 +12,9 @@
       <excludeFolder url="file://$MODULE_DIR$/example/ios/.symlinks/plugins/firebase_mlkit_language/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/example/ios/.symlinks/plugins/firebase_mlkit_language/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/example/ios/.symlinks/plugins/firebase_mlkit_language/build" />
+      <excludeFolder url="file://$MODULE_DIR$/example/ios/.symlinks/plugins/firebase_mlkit_language/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/example/ios/.symlinks/plugins/firebase_mlkit_language/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/example/ios/.symlinks/plugins/firebase_mlkit_language/example/build" />
       <excludeFolder url="file://$MODULE_DIR$/example/ios/.symlinks/plugins/firebase_mlkit_language/example/build/flutter_assets/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/ios/.symlinks/plugins/firebase_mlkit_language/example/ios/Flutter/App.framework/flutter_assets/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/ios/Flutter/App.framework/flutter_assets/packages" />
