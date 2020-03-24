@@ -23,7 +23,11 @@ class ModelManager {
         await FirebaseLanguage.channel.invokeMethod('ModelManager#viewModels');
     final List<String> models = <String>[];
     for (dynamic model in availableModels) {
-      models.add(model);
+      if (Platform.isAndroid) {
+        models.add(model["languageCode"]);
+      } else {
+        models.add(model);
+      }
     }
     return models;
   }
